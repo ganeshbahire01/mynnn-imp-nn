@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import FetchData from "../Data/ApiFetch";
 import Cards from "./Card";
-import Skeletoon from "./Skeleton";
 
 const All = () => {
   const [data, setData] = useState([]);
